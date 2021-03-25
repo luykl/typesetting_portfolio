@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: "Literata", serif;
+    font-weight: 300;
+    margin: 10px 40px 40px 40px;
+    max-width: 750px;
+    background-color:snow;
+}
+
+
+h1 {
+    font-weight: 300;
+    padding-bottom: 6px;
+    margin-block-end: 0;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right, rgba(122,0,55,1) 0%, rgba(70,0,74,1) 45%, rgba(0,0,0,1) 100%);
+    border-image-slice: 1;
+    border-left: 0;
+    border-right:0;
+}
+
+h2 {
+    margin-block-start: 0;
+    font-weight: 200;
+    font-size: 1.5;
+}
+
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0px 20px 20px 20px;
+    columns: 2;
+    column-gap: 30px;
+    font-size: .9em;
+}
+
+/* ul li::before {
+    content: "\25B6";
+    font-weight: normal;
+    font-size: .25em;
+    color:dimgray; 
+    display: inline-block; 
+    width: 5em;
+    margin-left: -5em; 
+  } */
+
+bdo {
+    letter-spacing: .2em;
+    font-weight: 350;
+}
+
+strong {
+    font-weight: 450;
+}
+
+.projects {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.go-to-project {
+    display: block;
+    text-decoration: none;
+    color: rgba(122,0,55,1);
+    font-weight: 500;
+    font-size: .75em;
+    letter-spacing:.75px;
+    margin: 10px 10px;
+    text-transform: uppercase;
+}
+
+.thmb {
+    width: 150px;
+    height: 140px;
+    margin-top: 3px;
+    border: solid rgba(122,0,55,1) 1px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.go-to-project:hover{
+    color:rgba(70,0,74,.5);
+}
+
+.thmb:hover{
+    border-color:rgba(70,0,74,.5);
+    opacity: 0.5;
+}
+
+.spreads {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 750px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.spread-image {
+    max-width: 80vw;
+    margin: 40px 0 0 0;
+    border: solid gray .5px;
+}
+
+.pages {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.page-photo {
+    max-width: 100%;
+    height: auto;
+    margin: 40px 40px 0px 0px;
+    border: solid rgb(181, 181, 181) .5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-block-end: 0;
+}
+
+#go-back {
+    font-style: italic;
+    font-variation-settings: 'ital' 1;
+    text-decoration: none;
+}
+
+
+
